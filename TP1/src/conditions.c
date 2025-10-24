@@ -5,6 +5,9 @@ int main() {
     int i;
 
     for (i = 1; i <= 1000; i++) {
+        if (i % 11 == 0) {
+            continue;
+        }
         if (i % 5 == 0 || i % 7 == 0) {
             somme += i;
         }
@@ -16,3 +19,4 @@ int main() {
 
     return 0;
 }
+
