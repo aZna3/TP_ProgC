@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    char a= 'M';
-    unsigned chart z = 250;
+    char a = 'M';
+    unsigned char z = 250;
     
     short e = 800;
     unsigned short r = 1500;
@@ -11,34 +11,29 @@ int main() {
     unsigned int y = 1500;
     
     long int u = -15000;
-    unsigned long int i = -55000;
+    unsigned long int i = 55000;
     
-    float o = 3.14;
+    float o = 3.14f;
     
     double p = 2.71828;
     long double q = 1.61;
 
-    printf("char : %a\n", a);
-    printf("unsigned chart : %z\n", z);
+    printf("char : %c\n", a);
+    printf("unsigned char : %u\n", z);
     
-    printf("short : %e\n", e);
-    printf("unsigned short : %r\n", r);
+    printf("short : %d\n", e);
+    printf("unsigned short : %u\n", r);
     
-    printf("int : %t\n", t);
-    printf("unsigned int : %y\n", y);
+    printf("int : %d\n", t);
+    printf("unsigned int : %u\n", y);
     
-    printf("long int : %u\n", u);
-    printf("unsigned long int : %i\n", i);
+    printf("long int : %ld\n", u);
+    printf("unsigned long int : %lu\n", i);
 
-    printf("float : %o\n", o);
+    printf("float : %f\n", o);
     
-    printf("double : %p\n", p);
-    printf("long double ld : %q\n", q);
-
+    printf("double : %lf\n", p);
+    printf("long double : %Lf\n", q);
 
     return 0;
 }
-
-
-
-
