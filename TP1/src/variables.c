@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    char a= M;
+    char a= 'M';
     unsigned chart z = 250;
     
     short e = 800;
@@ -18,26 +18,27 @@ int main() {
     double p = 2.71828;
     long double q = 1.61;
 
-    printf("char : %d\n", a);
-    printf("unsigned chart : %u\n", z);
+    printf("char : %a\n", a);
+    printf("unsigned chart : %z\n", z);
     
-    printf("short : %.2f\n", e);
-    printf("unsigned short : %d\n", r);
+    printf("short : %e\n", e);
+    printf("unsigned short : %r\n", r);
     
-    printf("int : %.5f\n", t);
-    printf("unsigned int : %u\n", y);
+    printf("int : %t\n", t);
+    printf("unsigned int : %y\n", y);
     
-    printf("long int : %.2f\n", u);
-    printf("unsigned long int : %.5f\n", i);
+    printf("long int : %u\n", u);
+    printf("unsigned long int : %i\n", i);
 
-    printf("float : %.2f\n", o);
+    printf("float : %o\n", o);
     
-    printf("double : %.5f\n", p);
-    printf("long double ld : %.2f\n", q);
+    printf("double : %p\n", p);
+    printf("long double ld : %q\n", q);
 
 
     return 0;
 }
+
 
 
 
