@@ -12,9 +12,10 @@ int main() {
             break;
         }
     }
-    printf("somme : ", somme);
+    printf("somme : %d\n", somme);
 
     return 0;
 }
+
 
 
