@@ -13,7 +13,7 @@ int main() {
                 printf("* ");
             } else if (j == 1 || j == i) {
                 printf("* ");
-            } else if (i % 2 == 1) {
+            } else if (i % 2 == 1 || i % 2 == 0) {
                 printf("# ");
             } else {
                 printf("* ");
