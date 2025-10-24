@@ -11,12 +11,8 @@ int main() {
         for (int j = 1; j <= i; j++) {
             if (i == 1 || i == compteur) {
                 printf("* ");
-            } else if (j == 1 || j == i) {
-                printf("* ");
-            } else if (i % 2 == 0) {
-                printf("# ");
             } else {
-                printf("* ");
+                printf("# ");
             }
         }
         printf("\n");
