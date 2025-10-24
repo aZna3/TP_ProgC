@@ -1,41 +1,42 @@
 #include <stdio.h>
 
 int main() {
-    char c= 6100;
-    unsigned chart uc = 200;
+    char a= 6100;
+    unsigned chart z = 200;
     
-    short s = -20000;
-    unsigned short us = 50000;
+    short e = -20000;
+    unsigned short r = 50000;
     
-    int i = 10;
-    unsigned int ui = 20;
+    int t = 10;
+    unsigned int y = 20;
     
-    long int li = -100000;
-    unsigned long int uli = 3000000000U;
+    long int u = -100000;
+    unsigned long int i = 3000000000U;
     
-    float f = 3.14;
+    float o = 3.14;
     
-    double d = 2.71828;
-    long double ld = 1.61;
+    double p = 2.71828;
+    long double q = 1.61;
 
-    printf("char : %d\n", c);
-    printf("unsigned chart : %u\n", uc);
+    printf("char : %d\n", a);
+    printf("unsigned chart : %u\n", z);
     
-    printf("short : %.2f\n", s);
-    printf("unsigned short : %d\n", us);
+    printf("short : %.2f\n", e);
+    printf("unsigned short : %d\n", r);
     
-    printf("int : %.5f\n", i);
-    printf("unsigned int : %u\n", ui);
+    printf("int : %.5f\n", t);
+    printf("unsigned int : %u\n", y);
     
-    printf("long int : %.2f\n", li);
-    printf("unsigned long int : %.5f\n", uli);
+    printf("long int : %.2f\n", u);
+    printf("unsigned long int : %.5f\n", i);
 
-    printf("float : %.2f\n", f);
+    printf("float : %.2f\n", o);
     
-    printf("double : %.5f\n", d);
-    printf("long double ld : %.2f\n", ld);
+    printf("double : %.5f\n", p);
+    printf("long double ld : %.2f\n", q);
 
 
     return 0;
 }
+
 
