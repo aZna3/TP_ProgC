@@ -1,17 +1,17 @@
 #include <stdio.h>
 
 int main() {
-    char a= 6100;
-    unsigned chart z = 200;
+    char a= M;
+    unsigned chart z = 250;
     
-    short e = -20000;
-    unsigned short r = 50000;
+    short e = 800;
+    unsigned short r = 1500;
     
-    int t = 10;
-    unsigned int y = 20;
+    int t = 1500;
+    unsigned int y = 1500;
     
-    long int u = -100000;
-    unsigned long int i = 3000000000U;
+    long int u = -15000;
+    unsigned long int i = -55000;
     
     float o = 3.14;
     
@@ -38,5 +38,6 @@ int main() {
 
     return 0;
 }
+
 
 
