@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 int main() {
     int a = 2;      
     int b = 3;      
@@ -10,3 +12,4 @@ int main() {
     printf("%d puissance %d = %d\n", a, b, resultat);
     return 0;
 }
+
